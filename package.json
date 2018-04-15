@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "mocha": "^5.1.0",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "scripts": {
+    "test": "mocha",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sentinel1985/portfolio.git"
+  },
+  "author": "Rene Leistikow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sentinel1985/portfolio/issues"
+  },
+  "homepage": "https://github.com/sentinel1985/portfolio#readme"
+}
